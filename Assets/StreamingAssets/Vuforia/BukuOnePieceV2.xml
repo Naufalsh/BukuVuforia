@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="halaman47" size="4.000000 5.679688" />
+    <ImageTarget name="halaman46" size="4.000000 5.679688" />
+    <ImageTarget name="halaman45" size="4.000000 5.679688" />
+    <ImageTarget name="halaman44" size="4.000000 5.679688" />
+    <ImageTarget name="halaman43" size="4.000000 5.679688" />
+    <ImageTarget name="halaman42" size="4.000000 5.679688" />
+    <ImageTarget name="halaman41" size="4.000000 5.679688" />
+    <ImageTarget name="halaman40" size="4.000000 5.679688" />
+    <ImageTarget name="halaman39" size="4.000000 5.679688" />
+    <ImageTarget name="halaman38" size="4.000000 5.679688" />
+    <ImageTarget name="halaman36" size="4.000000 5.679688" />
+    <ImageTarget name="halaman34" size="4.000000 5.679688" />
+    <ImageTarget name="halaman32" size="4.000000 5.679688" />
+    <ImageTarget name="halaman30" size="4.000000 5.679688" />
+    <ImageTarget name="halaman26" size="4.000000 5.679688" />
+    <ImageTarget name="halaman24" size="4.000000 5.679688" />
+    <ImageTarget name="halaman22" size="4.000000 5.679688" />
+    <ImageTarget name="halaman19" size="4.000000 5.679688" />
+    <ImageTarget name="halaman16" size="4.000000 5.679688" />
+    <ImageTarget name="halaman12" size="4.000000 5.679688" />
+    <ImageTarget name="halaman9" size="4.000000 5.679688" />
+    <ImageTarget name="halaman6" size="4.000000 5.679688" />
+    <ImageTarget name="halaman14" size="4.000000 5.679688" />
+    <ImageTarget name="halaman4" size="4.000000 5.679688" />
+  </Tracking>
+</QCARConfig>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Marker24" size="1.000000 0.809524" />
+    <ImageTarget name="Marker23" size="1.000000 0.809524" />
+    <ImageTarget name="Marker22" size="1.000000 0.809524" />
+    <ImageTarget name="marker21" size="1.000000 0.809524" />
+    <ImageTarget name="Marker17" size="17.000000 13.761905" />
+    <ImageTarget name="marker20" size="1.000000 0.809524" />
+    <ImageTarget name="Marker19" size="1.000000 0.809524" />
+    <ImageTarget name="Marker18" size="1.000000 0.809524" />
+    <ImageTarget name="Marker16" size="1.000000 0.809524" />
+    <ImageTarget name="Marker15" size="1.000000 0.809524" />
+    <ImageTarget name="Marker14" size="1.000000 0.809524" />
+    <ImageTarget name="Marker13" size="1.000000 0.809524" />
+    <ImageTarget name="Marker12" size="1.000000 0.809524" />
+    <ImageTarget name="Marker11" size="1.000000 0.809524" />
+    <ImageTarget name="Martker10" size="1.000000 0.809524" />
+    <ImageTarget name="Marker9" size="1.000000 0.809524" />
+    <ImageTarget name="Marker8" size="1.000000 0.809524" />
+    <ImageTarget name="Marker7" size="1.000000 0.809524" />
+    <ImageTarget name="Marker6" size="1.000000 0.809524" />
+    <ImageTarget name="Marker5" size="1.000000 0.809524" />
+    <ImageTarget name="Marker4" size="1.000000 0.809524" />
+    <ImageTarget name="Marker3" size="1.000000 0.811940" />
+    <ImageTarget name="marker1" size="1.000000 0.809524" />
+    <ImageTarget name="markerke2" size="1.000000 0.809524" />
+  </Tracking>
+</QCARConfig>
