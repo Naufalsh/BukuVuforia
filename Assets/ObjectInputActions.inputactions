@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "ObjectInputActions",
+    "maps": [
+        {
+            "name": "Object",
+            "id": "bd45ac14-6142-483b-8181-30b568305e63",
+            "actions": [
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "5c6d3dfa-6077-4565-9f53-685664484149",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4d33600c-224b-4ee4-ba4a-0b435892313b",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
