@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "BukuVuforia.sln"
+    "dotnet.defaultSolution": "ProjectVuforia.sln"
 }
