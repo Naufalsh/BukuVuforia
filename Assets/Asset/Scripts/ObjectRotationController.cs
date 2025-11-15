@@ -1,18 +1,45 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Vuforia;
 
 public class ObjectRotationController : MonoBehaviour
 {
-    [Header("Rotation Settings")]
+    [Header("Rotation")]
     public float rotationSpeed = 100f;
     public bool invertY = false;
 
     private ObjectInputActions inputActions;
     private Vector2 rotateInput;
 
+    private bool markerVisible = false;
+
+    private ImageTargetBehaviour imageTarget;
+
     void Awake()
     {
         inputActions = new ObjectInputActions();
+
+        // cari ImageTarget ke atas (parent)
+        imageTarget = GetComponentInParent<ImageTargetBehaviour>();
+
+        if (imageTarget != null)
+        {
+            imageTarget.OnTargetStatusChanged += OnStatusChanged;
+        }
+    }
+
+    void OnDestroy()
+    {
+        if (imageTarget != null)
+        {
+            imageTarget.OnTargetStatusChanged -= OnStatusChanged;
+        }
+    }
+
+    private void OnStatusChanged(ObserverBehaviour behaviour, TargetStatus status)
+    {
+        markerVisible = status.Status == Status.TRACKED ||
+                        status.Status == Status.EXTENDED_TRACKED;
     }
 
     void OnEnable()
@@ -27,15 +54,15 @@ public class ObjectRotationController : MonoBehaviour
 
     void Update()
     {
+        if (!markerVisible)
+            return; // ❗ Hanya rotasi jika marker terlihat
+
         rotateInput = inputActions.Object.Rotate.ReadValue<Vector2>();
 
-        // rotasi kiri-kanan di sumbu Y
         float yaw = rotateInput.x * rotationSpeed * Time.deltaTime;
-        // rotasi atas-bawah di sumbu X
         float pitch = (invertY ? -rotateInput.y : rotateInput.y) * rotationSpeed * Time.deltaTime;
 
-        // Terapkan rotasi ke objek 3D
-        transform.Rotate(Vector3.up, yaw, Space.World);
-        transform.Rotate(Vector3.right, pitch, Space.World);
+        transform.Rotate(Vector3.up, yaw, Space.Self);
+        transform.Rotate(Vector3.right, pitch, Space.Self);
     }
 }

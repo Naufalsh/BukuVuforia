@@ -1,9 +1,39 @@
 fileFormatVersion: 2
-guid: 413708dae9144b44ab00a61324dceeb3
+guid: 968cd92b0c2939f4d9d8f04b106652bd
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch37_1001_Diffuse
+    second: {fileID: 2800000, guid: e1d9a042334a03443926da088154a48f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch37_1001_Glossiness
+    second: {fileID: 2800000, guid: 4111c73c49d14bb49943b37195bcfe23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch37_1001_Normal
+    second: {fileID: 2800000, guid: 6ecd77500191d664a8c372ac0d75957f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch37_1001_Specular
+    second: {fileID: 2800000, guid: 420e68dc12499ed4b8caff7ca3cc4eab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch37_1002_Diffuse
+    second: {fileID: 2800000, guid: f7408787eb193d041a29b67656ad67de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch37_1002_Normal
+    second: {fileID: 2800000, guid: 40a88fae5ba469e4abae089c7f0df2ab, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -29,7 +59,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 284
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
