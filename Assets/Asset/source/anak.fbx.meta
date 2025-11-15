@@ -1,44 +1,9 @@
 fileFormatVersion: 2
-guid: e228098fa199903468cf912feff37684
+guid: 48a7facfbd9c74747b0b95d7105ae0af
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Boy_Hair_diffuse
-    second: {fileID: 2800000, guid: 54e76ae30cf4be243a3376e20a6d8e0e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Boy_Hands_diffuse
-    second: {fileID: 2800000, guid: a12e1f252a6909c459a0a601085ac694, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Boy_Head_diffuse
-    second: {fileID: 2800000, guid: 99855de59d55d6a409a826e77795a7c7, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Boy_LowerBody_diffuse
-    second: {fileID: 2800000, guid: 97a1aa114b14b9743a84bfaeba107ece, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Boy_Scarf_diffuse
-    second: {fileID: 2800000, guid: 0548d5abb0ada134787f424c454a5e09, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Boy_Shoes_diffuse
-    second: {fileID: 2800000, guid: c36779a6aaeaa9e4bacaa17e9220b467, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Boy_UpperBody_diffuse
-    second: {fileID: 2800000, guid: 17883c67ae9fa1b4593150b8b0bd30e8, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -64,36 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: mixamo.com
-      takeName: mixamo.com
-      internalID: -203655887218126122
-      firstFrame: 0
-      lastFrame: 284
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
